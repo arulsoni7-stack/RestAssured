@@ -18,6 +18,8 @@ public class APITest
         System.out.println("Time taken: "+response.getTime());
         System.out.println("Header Value: "+response.getHeader("Content-Type"));
         System.out.println("Arul!!!!!");
+        System.out.println("Arul!!!!!");
+        System.out.println("Arul!!!!!");
 
         int StatusCode = response.getStatusCode();
         Assert.assertEquals(StatusCode, 401);
